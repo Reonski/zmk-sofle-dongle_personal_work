@@ -157,13 +157,6 @@
             label = "DISAGREEMENT";
         };
 
-        the: the {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp T &kp H &kp E>;
-            label = "THE";
-        };
-
         space_backspace: space_backspace {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -279,12 +272,6 @@
         disagreement {
             bindings = <&disagreement>;
             key-positions = <27 29 18 31>;
-            layers = <0>;
-        };
-
-        the {
-            bindings = <&the>;
-            key-positions = <18 33>;
             layers = <0>;
         };
 
