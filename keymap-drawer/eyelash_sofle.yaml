@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - layer2
-  - {t: colemak-dh, h: toggle}
+  - {t: shortcut-numpad, h: toggle}
   colemak-dh:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -311,7 +311,7 @@ layers:
   - END
   - $$mdi:arrow-down-bold$$
   - PgDn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: qwerty, h: toggle}
   - {t: 'Ctl+$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
