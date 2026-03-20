@@ -566,9 +566,6 @@ combos:
 - p: [27, 29, 18, 31]
   k: '&disagreement'
   l: [qwerty]
-- p: [18, 33]
-  k: '&the'
-  l: [qwerty]
 - p: [59, 12]
   k: '&space_backspace'
   l: [qwerty]

@@ -740,12 +740,6 @@ rect.held, rect.combo.held {
 <text x="224" y="137" class="combo tap"><tspan style="font-size: 60%">&amp;disagree…</tspan></text>
 </g>
 <g class="combo combopos-15">
-<path d="M462,119 l-136,-25" class="combo"/>
-<path d="M462,119 l136,25" class="combo"/>
-<rect rx="6" ry="6" x="448" y="106" width="28" height="26" class="combo"/>
-<text x="462" y="119" class="combo tap">&amp;the</text>
-</g>
-<g class="combo combopos-16">
 <path d="M715,175 l-165,109" class="combo"/>
 <path d="M715,175 l165,-109" class="combo"/>
 <rect rx="6" ry="6" x="701" y="162" width="28" height="26" class="combo"/>
