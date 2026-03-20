@@ -311,7 +311,7 @@ layers:
   - END
   - $$mdi:arrow-down-bold$$
   - PgDn
-  - {t: qwerty, h: toggle}
+  - {t: shortcut-numpad, h: toggle}
   - {t: 'Ctl+$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
