@@ -118,7 +118,7 @@ layers:
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - keyboard.ctrl
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
@@ -313,7 +313,7 @@ layers:
   - '&soft_off'
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -323,7 +323,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   layer1:
   - {t: '`', s: '~'}
@@ -382,13 +382,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [31, 44, 0]
@@ -419,4 +419,4 @@ combos:
   k: Gui+PRINTSCREEN
   l: [qwerty]
 - p: [62, 56]
-  k: layer1
+  k: keyboard.ctrl
