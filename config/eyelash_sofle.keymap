@@ -195,7 +195,7 @@
             >;
 
             display-name = "shortcut-numpad";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         macros-func. {
