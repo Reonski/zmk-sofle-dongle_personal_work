@@ -169,7 +169,7 @@
         };
 
         keyboard.ctrl {
-            bindings = <&mo 5>;
+            bindings = <&mo 4>;
             key-positions = <62 56>;
         };
     };
@@ -196,7 +196,7 @@
 &kp LS(GRAVE)   &none                 &none                  &kp LC(E)     &none       &kp LC(T)    &kp LC(DOWN_ARROW)  &kp LC(C)  &kp HOME   &kp UP_ARROW       &kp PG_UP      &kp BACKSLASH     &kp MINUS
 &none           &kp LC(Y)             &kp LC(S)              &none         &kp INSERT  &none        &kp LC(LEFT_ARROW)  &kp LC(V)  &kp LEFT   &tog 1             &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LEFT_SHIFT  &kp LC(Z)             &kp LC(X)              &kp LC(C)     &kp LC(V)   &kp LA(B)    &kp LC(RIGHT)       &kp INS    &kp END    &kp DOWN           &kp PAGE_DOWN  &trans            &mt RIGHT_SHIFT DELETE
-&mo 4           &kp LEFT_CONTROL      &kp LEFT_WIN           &kp LEFT_ALT  &none       &trans       &mt LC(V) LC(C)     &trans     &trans     &kp RIGHT_CONTROL  &none          &none
+&trans           &kp LEFT_CONTROL      &kp LEFT_WIN           &kp LEFT_ALT  &none       &trans       &mt LC(V) LC(C)     &trans     &trans     &kp RIGHT_CONTROL  &none          &none
             >;
 
             display-name = "shortcut-numpad";
