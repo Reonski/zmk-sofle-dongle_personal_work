@@ -187,11 +187,11 @@
 
         shortcut-numpad {
             bindings = <
-&kp GRAVE       &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &kp LS(F3)    &none       &none        &kp LC(UP_ARROW)    &kp LC(X)          &kp COMMA  &kp PERIOD         &kp QUESTION   &kp EQUAL         &kp LC(BACKSPACE)
-&kp LS(GRAVE)   &none                 &none                  &kp LC(E)     &none       &kp LC(T)    &kp LC(DOWN_ARROW)  &kp LC(C)          &kp HOME   &kp UP_ARROW       &kp PG_UP      &none             &kp BACKSLASH
+&kp GRAVE       &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &kp LS(F3)    &none       &none        &kp LC(UP_ARROW)    &kp LC(X)          &kp COMMA  &kp PERIOD         &kp QUESTION   &kp EQUAL         &kp BACKSPACE
+&kp LS(GRAVE)   &none                 &none                  &kp LC(E)     &none       &kp LC(T)    &kp LC(DOWN_ARROW)  &kp LC(C)          &kp HOME   &kp UP_ARROW       &kp PG_UP      &kp BACKSLASH     &kp MINUS
 &none           &none                 &kp LC(S)              &none         &kp INSERT  &none        &kp LC(LEFT_ARROW)  &kp LC(V)          &kp LEFT   &tog 1             &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT  &kp LC(Z)             &kp LC(X)              &kp LC(C)     &kp LC(V)   &kp LA(B)    &kp LC(RIGHT)       &kp INS            &kp END    &kp DOWN           &kp PAGE_DOWN  &trans            &mt RIGHT_SHIFT LC(DELETE)
-&none           &kp LEFT_CONTROL      &kp LEFT_WIN           &kp LEFT_ALT  &tog 1      &trans       &mt LC(V) LC(C)     &kp LC(LS(SPACE))  &trans     &kp RIGHT_CONTROL  &kp LC(Z)      &kp LC(Y)
+&kp LEFT_SHIFT  &kp LC(Z)             &kp LC(X)              &kp LC(C)     &kp LC(V)   &kp LA(B)    &kp LC(RIGHT)       &kp INS            &kp END    &kp DOWN           &kp PAGE_DOWN  &trans            &mt RIGHT_SHIFT DELETE
+&none           &kp LEFT_CONTROL      &kp LEFT_WIN           &kp LEFT_ALT  &none       &trans       &mt LC(V) LC(C)     &kp LC(LS(SPACE))  &trans     &kp RIGHT_CONTROL  &kp LC(Z)      &kp LC(Y)
             >;
 
             display-name = "shortcut-numpad";
