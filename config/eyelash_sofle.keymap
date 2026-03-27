@@ -106,6 +106,34 @@
             bindings = <&none &kp LC(B) &kp LC(I)>;
             label = "BOLD_ITALICS";
         };
+
+        ok: ok {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp O &kp K>;
+            label = "OK";
+        };
+
+        r8: r8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp R &kp N8>;
+            label = "R8";
+        };
+
+        a8: a8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp A &kp N8>;
+            label = "A8";
+        };
+
+        yk: yk {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp Y &kp K>;
+            label = "YK";
+        };
     };
 
     behaviors {
@@ -172,6 +200,30 @@
             bindings = <&mo 5>;
             key-positions = <62 56>;
         };
+
+        ok {
+            bindings = <&ok>;
+            key-positions = <23 35>;
+            layers = <1>;
+        };
+
+        r8 {
+            bindings = <&r8>;
+            key-positions = <17 9>;
+            layers = <1>;
+        };
+
+        a8 {
+            bindings = <&a8>;
+            key-positions = <27 9>;
+            layers = <1>;
+        };
+
+        yk {
+            bindings = <&yk>;
+            key-positions = <20 35>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
@@ -183,7 +235,7 @@
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T          &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O    &kp P     &kp MINUS
 &kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G          &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B          &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT DEL
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &lt 2 SPACE    &mt LC(V) LC(C)  &kp SPACE  &kp ENTER  &kp RCTRL  &mo 3    &tog 1
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &lt 2 SPACE    &mt LC(V) LC(C)  &kp SPACE  &kp ENTER  &none      &mo 3    &tog 1
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -193,10 +245,10 @@
         shortcut-numpad {
             bindings = <
 &kp GRAVE       &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &kp LS(F3)    &none       &none        &kp LC(UP_ARROW)    &kp LC(X)  &kp COMMA  &kp PERIOD         &kp QUESTION   &kp EQUAL         &kp BACKSPACE
-&kp LS(GRAVE)   &none                 &none                  &kp LC(E)     &none       &kp LC(T)    &kp LC(DOWN_ARROW)  &kp LC(C)  &kp HOME   &kp UP_ARROW       &kp PG_UP      &kp BACKSLASH     &kp MINUS
+&kp TAB         &none                 &none                  &kp LC(E)     &none       &kp LC(T)    &kp LC(DOWN_ARROW)  &kp LC(C)  &kp HOME   &kp UP_ARROW       &kp PG_UP      &kp BACKSLASH     &kp MINUS
 &none           &kp LC(Y)             &kp LC(S)              &none         &kp INSERT  &none        &kp LC(LEFT_ARROW)  &kp LC(V)  &kp LEFT   &tog 1             &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LEFT_SHIFT  &kp LC(Z)             &kp LC(X)              &kp LC(C)     &kp LC(V)   &kp LA(B)    &kp LC(RIGHT)       &kp INS    &kp END    &kp DOWN           &kp PAGE_DOWN  &trans            &mt RIGHT_SHIFT DELETE
-&trans          &kp LEFT_CONTROL      &kp LEFT_WIN           &kp LEFT_ALT  &none       &trans       &mt LC(V) LC(C)     &trans     &trans     &kp RIGHT_CONTROL  &none          &none
+&trans          &kp LEFT_CONTROL      &kp LEFT_WIN           &kp LEFT_ALT  &none       &trans       &mt LC(V) LC(C)     &trans     &trans     &kp RIGHT_CONTROL  &trans         &none
             >;
 
             display-name = "shortcut-numpad";
