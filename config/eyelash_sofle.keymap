@@ -197,7 +197,7 @@
         };
 
         keyboard.ctrl {
-            bindings = <&mo 5>;
+            bindings = <&mo 4>;
             key-positions = <62 56>;
         };
 
