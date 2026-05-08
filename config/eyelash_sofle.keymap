@@ -281,7 +281,7 @@
 
         num_sorry {
             bindings = <&num_sorry>;
-            key-positions = <28 20>;
+            key-positions = <28 20 17>;
             layers = <1>;
         };
 
