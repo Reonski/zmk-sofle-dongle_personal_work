@@ -438,7 +438,7 @@ combos:
 - p: [46, 23]
   k: '&num_no'
   l: [shortcut-numpad]
-- p: [28, 20]
+- p: [28, 20, 17]
   k: '&num_sorry'
   l: [shortcut-numpad]
 - p: [46, 15]

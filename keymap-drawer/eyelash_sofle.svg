@@ -1118,10 +1118,11 @@ rect.held, rect.combo.held {
 <text x="700" y="147" class="combo tap"><tspan style="font-size: 86%">&amp;num_no</tspan></text>
 </g>
 <g class="combo combopos-10">
-<path d="M378,119 l-219,26" class="combo"/>
-<path d="M378,119 l219,-26" class="combo"/>
-<rect rx="6" ry="6" x="364" y="106" width="28" height="26" class="combo"/>
-<text x="378" y="119" class="combo tap"><tspan style="font-size: 60%">&amp;num_sorry</tspan></text>
+<path d="M336,110 l-178,34" class="combo"/>
+<path d="M336,110 l261,-17" class="combo"/>
+<path d="M336,110 l-66,-15" class="combo"/>
+<rect rx="6" ry="6" x="322" y="97" width="28" height="26" class="combo"/>
+<text x="336" y="110" class="combo tap"><tspan style="font-size: 60%">&amp;num_sorry</tspan></text>
 </g>
 <g class="combo combopos-11">
 <path d="M378,147 l220,52" class="combo"/>
