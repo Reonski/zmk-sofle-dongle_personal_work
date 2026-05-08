@@ -138,21 +138,21 @@
         num_yes: num_yes {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(Y) &kp E &kp S>;
+            bindings = <&none &kp Y &kp E &kp S>;
             label = "NUM_YES";
         };
 
         num_yah: num_yah {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(Y) &kp A>;
+            bindings = <&none &kp Y &kp A>;
             label = "NUM_YAH";
         };
 
         num_no: num_no {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(N) &kp O>;
+            bindings = <&none &kp N &kp O>;
             label = "NUM_NO";
         };
 
