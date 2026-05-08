@@ -1105,6 +1105,42 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="658" y="102" width="28" height="26" class="combo"/>
 <text x="672" y="116" class="combo tap">&amp;yk</text>
 </g>
+<g class="combo combopos-8">
+<path d="M378,119 l219,-26" class="combo"/>
+<path d="M378,119 l-219,26" class="combo"/>
+<rect rx="6" ry="6" x="364" y="106" width="28" height="26" class="combo"/>
+<text x="378" y="119" class="combo tap"><tspan style="font-size: 75%">&amp;num_yes</tspan></text>
+</g>
+<g class="combo combopos-9">
+<path d="M700,147 l-68,46" class="combo"/>
+<path d="M700,147 l68,-46" class="combo"/>
+<rect rx="6" ry="6" x="686" y="134" width="28" height="26" class="combo"/>
+<text x="700" y="147" class="combo tap"><tspan style="font-size: 86%">&amp;num_no</tspan></text>
+</g>
+<g class="combo combopos-10">
+<path d="M378,119 l-219,26" class="combo"/>
+<path d="M378,119 l219,-26" class="combo"/>
+<rect rx="6" ry="6" x="364" y="106" width="28" height="26" class="combo"/>
+<text x="378" y="119" class="combo tap"><tspan style="font-size: 60%">&amp;num_sorry</tspan></text>
+</g>
+<g class="combo combopos-11">
+<path d="M378,147 l220,52" class="combo"/>
+<path d="M378,147 l-220,-52" class="combo"/>
+<rect rx="6" ry="6" x="364" y="134" width="28" height="26" class="combo"/>
+<text x="378" y="147" class="combo tap"><tspan style="font-size: 75%">&amp;num_Now</tspan></text>
+</g>
+<g class="combo combopos-12">
+<path d="M350,130 l248,-36" class="combo"/>
+<path d="M350,130 l-248,36" class="combo"/>
+<rect rx="6" ry="6" x="336" y="117" width="28" height="26" class="combo"/>
+<text x="350" y="130" class="combo tap"><tspan style="font-size: 75%">&amp;num_yah</tspan></text>
+</g>
+<g class="combo combopos-13">
+<path d="M462,119 l-303,26" class="combo"/>
+<path d="M462,119 l303,-26" class="combo"/>
+<rect rx="6" ry="6" x="448" y="106" width="28" height="26" class="combo"/>
+<text x="462" y="119" class="combo tap"><tspan style="font-size: 86%">&amp;num_so</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-macros-func.">

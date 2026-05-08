@@ -432,3 +432,21 @@ combos:
 - p: [20, 35]
   k: '&yk'
   l: [qwerty, shortcut-numpad]
+- p: [20, 28]
+  k: '&num_yes'
+  l: [shortcut-numpad]
+- p: [46, 23]
+  k: '&num_no'
+  l: [shortcut-numpad]
+- p: [28, 20]
+  k: '&num_sorry'
+  l: [shortcut-numpad]
+- p: [46, 15]
+  k: '&num_Now'
+  l: [shortcut-numpad]
+- p: [20, 27]
+  k: '&num_yah'
+  l: [shortcut-numpad]
+- p: [28, 23]
+  k: '&num_so'
+  l: [shortcut-numpad]
