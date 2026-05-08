@@ -134,6 +134,48 @@
             bindings = <&none &kp Y &kp K>;
             label = "YK";
         };
+
+        num_yes: num_yes {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(Y) &kp E &kp S>;
+            label = "NUM_YES";
+        };
+
+        num_yah: num_yah {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(Y) &kp A>;
+            label = "NUM_YAH";
+        };
+
+        num_no: num_no {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(N) &kp O>;
+            label = "NUM_NO";
+        };
+
+        num_sorry: num_sorry {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp S &kp Y>;
+            label = "NUM_SORRY";
+        };
+
+        num_Now: num_Now {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N &kp W>;
+            label = "NUM_NOW";
+        };
+
+        num_so: num_so {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp S &kp O>;
+            label = "NUM_SO";
+        };
     };
 
     behaviors {
@@ -223,6 +265,42 @@
             bindings = <&yk>;
             key-positions = <20 35>;
             layers = <0 1>;
+        };
+
+        num_yes {
+            bindings = <&num_yes>;
+            key-positions = <20 28>;
+            layers = <1>;
+        };
+
+        num_no {
+            bindings = <&num_no>;
+            key-positions = <46 23>;
+            layers = <1>;
+        };
+
+        num_sorry {
+            bindings = <&num_sorry>;
+            key-positions = <28 20>;
+            layers = <1>;
+        };
+
+        num_Now {
+            bindings = <&num_Now>;
+            key-positions = <46 15>;
+            layers = <1>;
+        };
+
+        num_yah {
+            bindings = <&num_yah>;
+            key-positions = <20 27>;
+            layers = <1>;
+        };
+
+        num_so {
+            bindings = <&num_so>;
+            key-positions = <28 23>;
+            layers = <1>;
         };
     };
 
