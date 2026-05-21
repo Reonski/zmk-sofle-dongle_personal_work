@@ -176,6 +176,20 @@
             bindings = <&none &kp S &kp O>;
             label = "NUM_SO";
         };
+
+        num_ty: num_ty {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp T &kp Y>;
+            label = "NUM_TY";
+        };
+
+        sticky_space: sticky_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(LC(SPACE))>;
+            label = "STICKY_SPACE";
+        };
     };
 
     behaviors {
@@ -302,6 +316,18 @@
             key-positions = <28 23>;
             layers = <1>;
         };
+
+        num_ty {
+            bindings = <&num_ty>;
+            key-positions = <18 20>;
+            layers = <1>;
+        };
+
+        sticky_space {
+            bindings = <&sticky_space>;
+            key-positions = <57 59>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
@@ -339,7 +365,7 @@
 &kp LC(LA(NUMBER_1))  &kp LC(LA(NUMBER_2))  &kp LC(LA(NUMBER_3))  &kp LC(LA(NUMBER_4))  &kp LC(LA(N5))     &kp LC(LA(NUMBER_6))    &kp DOWN      &kp F7             &kp F8             &kp F9            &kp F10           &kp F11        &kp F12
 &kp LC(GRAVE)         &none                 &kp LA(GRAVE)         &kp LC(LA(GRAVE))     &kp LA(LS(GRAVE))  &none                   &kp LEFT      &none              &kp LA(NUMBER_1)   &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &none          &none
 &kp LC(KP_N7)         &kp LC(KP_N8)         &kp LC(LA(KP_N7))     &kp LC(LA(KP_N8))     &kp LC(KP_N9)      &none                   &kp RIGHT     &kp LC(LA(KP_N6))  &kp LA(LC(KP_N9))  &none             &none             &none          &kp RSHIFT
-&none                 &kp LCTRL             &none                 &kp LEFT_ALT          &trans             &none                   &none         &kp LC(LS(SPACE))  &none              &kp RCTRL         &none             &kp RIGHT_ALT
+&none                 &kp LCTRL             &none                 &kp LEFT_ALT          &trans             &none                   &none         &none              &none              &kp RCTRL         &none             &kp RIGHT_ALT
             >;
 
             display-name = "macros-func.";
