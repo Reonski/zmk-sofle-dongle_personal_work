@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+Sft+$$mdi:keyboard-space$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -450,3 +450,9 @@ combos:
 - p: [28, 23]
   k: '&num_so'
   l: [shortcut-numpad]
+- p: [18, 20]
+  k: '&num_ty'
+  l: [shortcut-numpad]
+- p: [57, 59]
+  k: '&sticky_space'
+  l: [qwerty, shortcut-numpad]
