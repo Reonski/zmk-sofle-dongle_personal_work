@@ -880,10 +880,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">Ctl+S</text>
 </g>
-<g transform="translate(196, 140)" class="key none keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(196, 140)" class="key enter keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key enter tap glyph mdi:keyboard-return"/>
 </g>
 <g transform="translate(252, 147)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1159,6 +1159,19 @@ rect.held, rect.combo.held {
 <path d="M462,294 l54,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="281" width="28" height="26" class="combo"/>
 <text x="462" y="294" class="combo tap"><tspan style="font-size: 60%">&amp;sticky_s…</tspan></text>
+</g>
+<g class="combo combopos-16">
+<path d="M224,144 l-19,36" class="combo"/>
+<path d="M224,144 l19,-36" class="combo"/>
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="144" class="combo tap"><tspan style="font-size: 86%">&amp;num_cr</tspan></text>
+</g>
+<g class="combo combopos-17">
+<path d="M373,107 l-215,37" class="combo"/>
+<path d="M373,107 l336,-22" class="combo"/>
+<path d="M373,107 l-103,-14" class="combo"/>
+<rect rx="6" ry="6" x="359" y="94" width="28" height="26" class="combo"/>
+<text x="373" y="107" class="combo tap"><tspan style="font-size: 75%">&amp;num_sir</tspan></text>
 </g>
 </g>
 </g>

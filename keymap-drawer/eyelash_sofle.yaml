@@ -95,7 +95,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Y
   - Ctl+S
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ins
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+$$mdi:arrow-left-bold$$
@@ -456,3 +456,9 @@ combos:
 - p: [57, 59]
   k: '&sticky_space'
   l: [qwerty, shortcut-numpad]
+- p: [42, 17]
+  k: '&num_cr'
+  l: [shortcut-numpad]
+- p: [28, 22, 17]
+  k: '&num_sir'
+  l: [shortcut-numpad]
