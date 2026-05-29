@@ -190,6 +190,20 @@
             bindings = <&none &kp LS(LC(SPACE))>;
             label = "STICKY_SPACE";
         };
+
+        num_cr: num_cr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp C &kp R>;
+            label = "NUM_CR";
+        };
+
+        num_sir: num_sir {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp S &kp I &kp R>;
+            label = "NUM_SIR";
+        };
     };
 
     behaviors {
@@ -328,6 +342,18 @@
             key-positions = <57 59>;
             layers = <0 1>;
         };
+
+        num_cr {
+            bindings = <&num_cr>;
+            key-positions = <42 17>;
+            layers = <1>;
+        };
+
+        num_sir {
+            bindings = <&num_sir>;
+            key-positions = <28 22 17>;
+            layers = <1>;
+        };
     };
 
     keymap {
@@ -350,7 +376,7 @@
             bindings = <
 &kp GRAVE       &kp LC(LEFT_BRACKET)  &kp LC(RIGHT_BRACKET)  &kp LS(F3)    &none       &none        &kp LC(UP_ARROW)    &kp LC(X)  &kp COMMA  &kp PERIOD         &kp QUESTION   &kp EQUAL         &kp BACKSPACE
 &kp TAB         &none                 &none                  &kp LC(E)     &none       &kp LC(T)    &kp LC(DOWN_ARROW)  &kp LC(C)  &kp HOME   &kp UP_ARROW       &kp PG_UP      &kp BACKSLASH     &kp MINUS
-&none           &kp LC(Y)             &kp LC(S)              &none         &kp INSERT  &none        &kp LC(LEFT_ARROW)  &kp LC(V)  &kp LEFT   &tog 1             &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&none           &kp LC(Y)             &kp LC(S)              &kp ENTER     &kp INSERT  &none        &kp LC(LEFT_ARROW)  &kp LC(V)  &kp LEFT   &tog 1             &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LEFT_SHIFT  &kp LC(Z)             &kp LC(X)              &kp LC(C)     &kp LC(V)   &kp LA(B)    &kp LC(RIGHT)       &kp INS    &kp END    &kp DOWN           &kp PAGE_DOWN  &trans            &mt RIGHT_SHIFT DELETE
 &trans          &kp LEFT_CONTROL      &kp LEFT_WIN           &kp LEFT_ALT  &none       &trans       &mt LC(V) LC(C)     &trans     &trans     &kp RIGHT_CONTROL  &trans         &none
             >;
