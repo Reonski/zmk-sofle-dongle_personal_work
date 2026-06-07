@@ -462,3 +462,6 @@ combos:
 - p: [28, 22, 17]
   k: '&num_sir'
   l: [shortcut-numpad]
+- p: [18, 33]
+  k: '&num_the'
+  l: [shortcut-numpad]

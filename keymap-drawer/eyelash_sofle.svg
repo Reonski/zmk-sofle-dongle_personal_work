@@ -1173,6 +1173,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="359" y="94" width="28" height="26" class="combo"/>
 <text x="373" y="107" class="combo tap"><tspan style="font-size: 75%">&amp;num_sir</tspan></text>
 </g>
+<g class="combo combopos-18">
+<path d="M462,119 l-136,-25" class="combo"/>
+<path d="M462,119 l136,25" class="combo"/>
+<rect rx="6" ry="6" x="448" y="106" width="28" height="26" class="combo"/>
+<text x="462" y="119" class="combo tap"><tspan style="font-size: 75%">&amp;num_the</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-macros-func.">
