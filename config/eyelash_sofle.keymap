@@ -204,6 +204,13 @@
             bindings = <&none &kp S &kp I &kp R>;
             label = "NUM_SIR";
         };
+
+        num_the: num_the {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp T &kp H &kp E>;
+            label = "NUM_THE";
+        };
     };
 
     behaviors {
@@ -352,6 +359,12 @@
         num_sir {
             bindings = <&num_sir>;
             key-positions = <28 22 17>;
+            layers = <1>;
+        };
+
+        num_the {
+            bindings = <&num_the>;
+            key-positions = <18 33>;
             layers = <1>;
         };
     };
