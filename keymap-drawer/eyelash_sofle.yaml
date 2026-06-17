@@ -399,10 +399,10 @@ combos:
   l: [qwerty, shortcut-numpad]
 - p: [27, 31]
   k: '&agree_ag'
-  l: [qwerty]
+  l: [qwerty, shortcut-numpad]
 - p: [29, 31]
   k: '&disagree_dg'
-  l: [qwerty]
+  l: [qwerty, shortcut-numpad]
 - p: [27, 18, 31]
   k: '&agreement'
   l: [qwerty]
@@ -422,46 +422,49 @@ combos:
   k: keyboard.ctrl
 - p: [23, 35]
   k: '&ok'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [17, 9]
   k: '&r8'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [27, 9]
   k: '&a8'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [20, 35]
   k: '&yk'
   l: [qwerty, shortcut-numpad]
 - p: [20, 28]
   k: '&num_yes'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [46, 23]
   k: '&num_no'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [28, 20, 17]
   k: '&num_sorry'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [46, 15]
   k: '&num_Now'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [20, 27]
   k: '&num_yah'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [28, 23]
   k: '&num_so'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [18, 20]
   k: '&num_ty'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [57, 59]
   k: '&sticky_space'
   l: [qwerty, shortcut-numpad]
 - p: [42, 17]
   k: '&num_cr'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [28, 22, 17]
   k: '&num_sir'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
 - p: [18, 33]
   k: '&num_the'
-  l: [shortcut-numpad]
+  l: [shortcut-numpad, qwerty]
+- p: [22, 28]
+  k: '&numpad_is'
+  l: [qwerty, shortcut-numpad]
