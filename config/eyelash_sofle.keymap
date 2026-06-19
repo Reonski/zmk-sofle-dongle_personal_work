@@ -342,7 +342,7 @@
         num_so {
             bindings = <&num_so>;
             key-positions = <28 23>;
-            layers = <1 0>;
+            layers = <1>;
         };
 
         num_ty {
