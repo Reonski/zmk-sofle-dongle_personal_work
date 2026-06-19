@@ -449,7 +449,7 @@ combos:
   l: [shortcut-numpad, qwerty]
 - p: [28, 23]
   k: '&num_so'
-  l: [shortcut-numpad, qwerty]
+  l: [shortcut-numpad]
 - p: [18, 20]
   k: '&num_ty'
   l: [shortcut-numpad, qwerty]
