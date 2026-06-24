@@ -446,7 +446,7 @@ combos:
   l: [shortcut-numpad, qwerty]
 - p: [20, 27]
   k: '&num_yah'
-  l: [shortcut-numpad, qwerty]
+  l: [shortcut-numpad]
 - p: [28, 23]
   k: '&num_so'
   l: [shortcut-numpad]
