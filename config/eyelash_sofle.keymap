@@ -336,7 +336,7 @@
         num_yah {
             bindings = <&num_yah>;
             key-positions = <20 27>;
-            layers = <1 0>;
+            layers = <1>;
         };
 
         num_so {
