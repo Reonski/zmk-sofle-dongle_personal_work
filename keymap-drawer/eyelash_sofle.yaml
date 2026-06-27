@@ -434,7 +434,7 @@ combos:
   l: [qwerty, shortcut-numpad]
 - p: [20, 28]
   k: '&num_yes'
-  l: [shortcut-numpad, qwerty]
+  l: [shortcut-numpad]
 - p: [46, 23]
   k: '&num_no'
   l: [shortcut-numpad]
