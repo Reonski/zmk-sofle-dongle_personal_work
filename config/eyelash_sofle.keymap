@@ -312,7 +312,7 @@
         num_yes {
             bindings = <&num_yes>;
             key-positions = <20 28>;
-            layers = <1 0>;
+            layers = <1>;
         };
 
         num_no {
